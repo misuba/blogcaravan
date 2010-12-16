@@ -1,0 +1,25 @@
+So a group of some friends of mine wanted to try an experimental structure  
+they called Storycaravan. In Storycaravan, blog posts made by members of 
+the group would be echoed onto a central, forum-like site which would give 
+each post its own, separate comment thread. Commenters would have to formally 
+register with the site, and when someone made a new comment, the post on 
+which the comment was made would pop to the top of the page, like on most 
+forums.
+
+It dawned on me that WordPress could make just about all of those things 
+happen already. The only piece I would have to supply was the sort: the means 
+to bring a post to the top of the page when it got a comment. (WordPress 
+already has a Recent Comments widget, but it turned out not to be very 
+reusable for this purpose, for a lot of wacky reasons.) So here it is: 
+Blogcaravan, my first WP plugin.
+
+There’s a huge amount it doesn’t do, and it may be doing even less in the 
+near future – I may be able to do a better job of filtering the functionality 
+to leave pages alone when appropriate. But I love the notion that by keeping 
+functionality narrow, I can support a lot of unexpected new combinations. 
+(For Storycaravan we’re blending it with the FeedWordPress aggregation 
+plugin.) I hope it will be of use to people who want to do forum/blog hybrids 
+without starting from forum software.
+
+It probably only works with MySQL at the moment (take a gander at that cast()
+statement).
